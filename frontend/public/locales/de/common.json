@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "Professor Peptide",
+    "tagline": "Die umfassendste Peptid-Forschungsplattform der Welt",
+    "description": "Bildungsplattform für Peptidforschung mit medizinischer Expertenaufsicht, umfassender Datenbank und professionellen Rechnern."
+  },
+  "navigation": {
+    "home": "Startseite",
+    "peptides": "Peptide",
+    "research": "Forschung",
+    "blog": "Blog",
+    "resources": "Ressourcen",
+    "about": "Über uns",
+    "calculators": "Rechner",
+    "faq": "Häufige Fragen",
+    "contact": "Kontakt"
+  },
+  "common": {
+    "search": "Suchen",
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "readMore": "Mehr lesen",
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Loslegen",
+    "viewAll": "Alle anzeigen",
+    "backToHome": "Zurück zur Startseite",
+    "notFound": "Seite nicht gefunden",
+    "comingSoon": "Demnächst"
+  },
+  "footer": {
+    "research": "Forschung",
+    "peptides": "Peptide",
+    "resources": "Ressourcen",
+    "company": "Unternehmen",
+    "followUs": "Folgen Sie uns für die neuesten Peptidforschungs-Updates",
+    "educationalNotice": "Bildungsinhalt nur für Forschungszwecke. Keine medizinische Beratung. Nicht für den menschlichen Gebrauch.",
+    "copyright": "© 2025 Professor Peptide. Alle Rechte vorbehalten."
+  },
+  "hero": {
+    "title": "Die umfassendste Peptid-Forschungsplattform der Welt",
+    "subtitle": "Zugang zu über 47 Forschungspeptiden mit Evidenzzusammenfassungen, professionellen Rechnern und medizinischer Expertenaufsicht",
+    "cta": "Datenbank erkunden"
+  }
+}
