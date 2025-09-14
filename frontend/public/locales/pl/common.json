@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "Profesor Peptydy",
+    "tagline": "Najbardziej kompleksowa platforma badań nad peptydami na świecie",
+    "description": "Edukacyjna platforma badań nad peptydami z fachowym nadzorem medycznym, kompleksową bazą danych i profesjonalnymi kalkulatorami."
+  },
+  "navigation": {
+    "home": "Strona główna",
+    "peptides": "Peptydy",
+    "research": "Badania",
+    "blog": "Blog",
+    "resources": "Zasoby",
+    "about": "O nas",
+    "calculators": "Kalkulatory",
+    "faq": "Często zadawane pytania",
+    "contact": "Kontakt"
+  },
+  "common": {
+    "search": "Szukaj",
+    "loading": "Ładowanie...",
+    "error": "Błąd",
+    "readMore": "Czytaj więcej",
+    "learnMore": "Dowiedz się więcej",
+    "getStarted": "Zacznij",
+    "viewAll": "Zobacz wszystko",
+    "backToHome": "Powrót do strony głównej",
+    "notFound": "Strona nie została znaleziona",
+    "comingSoon": "Wkrótce"
+  },
+  "footer": {
+    "research": "Badania",
+    "peptides": "Peptydy",
+    "resources": "Zasoby",
+    "company": "Firma",
+    "followUs": "Śledź nas, aby otrzymywać najnowsze aktualizacje badań nad peptydami",
+    "educationalNotice": "Treść edukacyjna wyłącznie do celów badawczych. To nie jest porada medyczna. Nie do użytku przez ludzi.",
+    "copyright": "© 2025 Profesor Peptydy. Wszelkie prawa zastrzeżone."
+  },
+  "hero": {
+    "title": "Najbardziej kompleksowa platforma badań nad peptydami na świecie",
+    "subtitle": "Dostęp do ponad 47 peptydów badawczych z podsumowaniami dowodów, profesjonalnymi kalkulatorami i fachowym nadzorem medycznym",
+    "cta": "Przeglądaj bazę danych"
+  }
+}
