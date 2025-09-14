@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "肽教授",
+    "tagline": "世界上最全面的肽研究平台",
+    "description": "具有专家医疗监督、综合数据库和专业计算器的教育性肽研究平台。"
+  },
+  "navigation": {
+    "home": "首页",
+    "peptides": "肽类",
+    "research": "研究",
+    "blog": "博客",
+    "resources": "资源",
+    "about": "关于我们",
+    "calculators": "计算器",
+    "faq": "常见问题",
+    "contact": "联系我们"
+  },
+  "common": {
+    "search": "搜索",
+    "loading": "加载中...",
+    "error": "错误",
+    "readMore": "阅读更多",
+    "learnMore": "了解更多",
+    "getStarted": "开始",
+    "viewAll": "查看全部",
+    "backToHome": "返回首页",
+    "notFound": "页面未找到",
+    "comingSoon": "即将推出"
+  },
+  "footer": {
+    "research": "研究",
+    "peptides": "肽类",
+    "resources": "资源",
+    "company": "公司",
+    "followUs": "关注我们获取最新的肽研究更新",
+    "educationalNotice": "教育内容仅用于研究用途。非医疗建议。不适合人类使用。",
+    "copyright": "© 2025 肽教授。保留所有权利。"
+  },
+  "hero": {
+    "title": "世界上最全面的肽研究平台",
+    "subtitle": "访问超过47种研究肽类，包含证据摘要、专业计算器和专家医疗监督",
+    "cta": "探索数据库"
+  }
+}
