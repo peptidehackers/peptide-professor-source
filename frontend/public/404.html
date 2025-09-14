@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found | Professor Peptides</title>
+  <meta name="description" content="The page you're looking for doesn't exist. Return to Professor Peptides for peptide research and calculators.">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="canonical" href="https://professorpeptides.org/404">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .error-container {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      padding: 60px 40px;
+      text-align: center;
+      max-width: 500px;
+      width: 100%;
+    }
+    
+    .error-code {
+      font-size: 120px;
+      font-weight: bold;
+      color: #667eea;
+      margin-bottom: 20px;
+      line-height: 1;
+    }
+    
+    .error-title {
+      font-size: 32px;
+      font-weight: 600;
+      color: #2d3748;
+      margin-bottom: 16px;
+    }
+    
+    .error-message {
+      font-size: 18px;
+      color: #718096;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+    
+    .error-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      min-width: 160px;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+    }
+    
+    .btn-secondary {
+      background: transparent;
+      color: #667eea;
+      border: 2px solid #667eea;
+    }
+    
+    .btn-secondary:hover {
+      background: #667eea;
+      color: white;
+      transform: translateY(-2px);
+    }
+    
+    .suggestions {
+      margin-top: 40px;
+      padding-top: 40px;
+      border-top: 1px solid #e2e8f0;
+    }
+    
+    .suggestions h3 {
+      font-size: 18px;
+      color: #2d3748;
+      margin-bottom: 16px;
+    }
+    
+    .suggestions ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+    
+    .suggestions a {
+      background: #f7fafc;
+      color: #4a5568;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+    
+    .suggestions a:hover {
+      background: #edf2f7;
+      color: #2d3748;
+    }
+    
+    @media (max-width: 480px) {
+      .error-container {
+        padding: 40px 24px;
+      }
+      
+      .error-code {
+        font-size: 80px;
+      }
+      
+      .error-title {
+        font-size: 24px;
+      }
+      
+      .error-message {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="error-code">404</div>
+    <h1 class="error-title">Page Not Found</h1>
+    <p class="error-message">
+      The page you're looking for doesn't exist or has been moved. 
+      Don't worry, let's get you back on track!
+    </p>
+    
+    <div class="error-actions">
+      <a href="/" class="btn btn-primary">Go to Homepage</a>
+      <a href="javascript:history.back()" class="btn btn-secondary">Go Back</a>
+    </div>
+    
+    <div class="suggestions">
+      <h3>Popular Pages</h3>
+      <ul>
+        <li><a href="/calculators">Peptide Calculators</a></li>
+        <li><a href="/peptides/browse">Browse Peptides</a></li>
+        <li><a href="/research">Research Hub</a></li>
+        <li><a href="/protocols">Protocols</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <script>
+    // Track 404 errors for analytics
+    if (window.gtag) {
+      gtag('event', 'page_not_found', {
+        'event_category': 'Error',
+        'event_label': window.location.pathname,
+        'value': 1
+      });
+    }
+    
+    // Auto-redirect from common typos
+    const path = window.location.pathname.toLowerCase();
+    const redirects = {
+      '/calculator': '/calculators',
+      '/peptide': '/peptides/browse',
+      '/peptides': '/peptides/browse',
+      '/research-hub': '/research',
+      '/contact-us': '/contact',
+      '/about-us': '/about'
+    };
+    
+    if (redirects[path]) {
+      setTimeout(() => {
+        window.location.href = redirects[path];
+      }, 3000);
+    }
+  </script>
+</body>
+</html>
