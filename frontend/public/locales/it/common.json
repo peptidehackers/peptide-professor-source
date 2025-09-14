@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "Professor Peptidi",
+    "tagline": "La piattaforma di ricerca sui peptidi più completa al mondo",
+    "description": "Piattaforma educativa di ricerca sui peptidi con supervisione medica esperta, database completo e calcolatori professionali."
+  },
+  "navigation": {
+    "home": "Home",
+    "peptides": "Peptidi",
+    "research": "Ricerca",
+    "blog": "Blog",
+    "resources": "Risorse",
+    "about": "Chi siamo",
+    "calculators": "Calcolatori",
+    "faq": "Domande frequenti",
+    "contact": "Contatti"
+  },
+  "common": {
+    "search": "Cerca",
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "readMore": "Leggi di più",
+    "learnMore": "Scopri di più",
+    "getStarted": "Inizia",
+    "viewAll": "Visualizza tutto",
+    "backToHome": "Torna alla home",
+    "notFound": "Pagina non trovata",
+    "comingSoon": "Prossimamente"
+  },
+  "footer": {
+    "research": "Ricerca",
+    "peptides": "Peptidi",
+    "resources": "Risorse",
+    "company": "Azienda",
+    "followUs": "Seguici per gli ultimi aggiornamenti sulla ricerca sui peptidi",
+    "educationalNotice": "Contenuto educativo solo per uso di ricerca. Non è un consiglio medico. Non per uso umano.",
+    "copyright": "© 2025 Professor Peptidi. Tutti i diritti riservati."
+  },
+  "hero": {
+    "title": "La piattaforma di ricerca sui peptidi più completa al mondo",
+    "subtitle": "Accesso a oltre 47 peptidi di ricerca con riassunti delle evidenze, calcolatori professionali e supervisione medica esperta",
+    "cta": "Esplora il database"
+  }
+}
