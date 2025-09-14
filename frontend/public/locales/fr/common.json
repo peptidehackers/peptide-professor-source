@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "Professeur Peptides",
+    "tagline": "La plateforme de recherche de peptides la plus complète au monde",
+    "description": "Plateforme éducative de recherche sur les peptides avec supervision médicale experte, base de données complète et calculateurs professionnels."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "peptides": "Peptides",
+    "research": "Recherche",
+    "blog": "Blog",
+    "resources": "Ressources",
+    "about": "À propos",
+    "calculators": "Calculateurs",
+    "faq": "Questions fréquentes",
+    "contact": "Contact"
+  },
+  "common": {
+    "search": "Rechercher",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "readMore": "Lire plus",
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "viewAll": "Voir tout",
+    "backToHome": "Retour à l'accueil",
+    "notFound": "Page non trouvée",
+    "comingSoon": "Bientôt disponible"
+  },
+  "footer": {
+    "research": "Recherche",
+    "peptides": "Peptides",
+    "resources": "Ressources",
+    "company": "Entreprise",
+    "followUs": "Suivez-nous pour les dernières mises à jour de recherche sur les peptides",
+    "educationalNotice": "Contenu éducatif à des fins de recherche uniquement. Pas de conseil médical. Pas pour usage humain.",
+    "copyright": "© 2025 Professeur Peptides. Tous droits réservés."
+  },
+  "hero": {
+    "title": "La plateforme de recherche de peptides la plus complète au monde",
+    "subtitle": "Accès à plus de 47 peptides de recherche avec résumés de preuves, calculateurs professionnels et supervision médicale experte",
+    "cta": "Explorer la base de données"
+  }
+}
