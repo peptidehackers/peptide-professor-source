@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "Professor Peptides",
+    "tagline": "World's Most Comprehensive Peptide Research Platform",
+    "description": "Educational peptide research platform with expert medical oversight, comprehensive database, and professional calculators."
+  },
+  "navigation": {
+    "home": "Home",
+    "peptides": "Peptides",
+    "research": "Research",
+    "blog": "Blog",
+    "resources": "Resources",
+    "about": "About",
+    "calculators": "Calculators",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "common": {
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "viewAll": "View All",
+    "backToHome": "Back to Home",
+    "notFound": "Page not found",
+    "comingSoon": "Coming Soon"
+  },
+  "footer": {
+    "research": "Research",
+    "peptides": "Peptides",
+    "resources": "Resources",
+    "company": "Company",
+    "followUs": "Follow us for the latest peptide research and updates",
+    "educationalNotice": "Educational content for research use only. Not medical advice. Not for human use.",
+    "copyright": "© 2025 Professor Peptides. All rights reserved."
+  },
+  "hero": {
+    "title": "World's Most Comprehensive Peptide Research Platform",
+    "subtitle": "Access 47+ research peptides with evidence summaries, professional calculators, and expert medical oversight",
+    "cta": "Explore Database"
+  }
+}
