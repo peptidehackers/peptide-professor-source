@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "プロフェッサー・ペプチド",
+    "tagline": "世界で最も包括的なペプチド研究プラットフォーム",
+    "description": "専門医師の監督、包括的なデータベース、専門的な計算機を備えた教育的ペプチド研究プラットフォーム。"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "peptides": "ペプチド",
+    "research": "研究",
+    "blog": "ブログ",
+    "resources": "リソース",
+    "about": "私たちについて",
+    "calculators": "計算機",
+    "faq": "よくある質問",
+    "contact": "お問い合わせ"
+  },
+  "common": {
+    "search": "検索",
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "readMore": "続きを読む",
+    "learnMore": "詳しく学ぶ",
+    "getStarted": "始める",
+    "viewAll": "すべて表示",
+    "backToHome": "ホームに戻る",
+    "notFound": "ページが見つかりません",
+    "comingSoon": "近日公開"
+  },
+  "footer": {
+    "research": "研究",
+    "peptides": "ペプチド",
+    "resources": "リソース",
+    "company": "会社",
+    "followUs": "最新のペプチド研究アップデートをフォローしてください",
+    "educationalNotice": "研究目的のみの教育コンテンツ。医学的アドバイスではありません。人間の使用を目的としていません。",
+    "copyright": "© 2025 プロフェッサー・ペプチド。無断転載を禁じます。"
+  },
+  "hero": {
+    "title": "世界で最も包括的なペプチド研究プラットフォーム",
+    "subtitle": "47以上の研究ペプチドへのアクセス、証拠要約、専門的な計算機、専門医師の監督",
+    "cta": "データベースを探索"
+  }
+}
