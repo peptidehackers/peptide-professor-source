@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <!-- Development cache busting -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <!-- Performance and Resource Hints -->
+        <link rel="preconnect" href="https://npiregistry.cms.hhs.gov" crossorigin />
+        <link rel="preconnect" href="https://vercel-insights.com" crossorigin />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        <meta http-equiv="x-dns-prefetch-control" content="on" />
+        
+        <!-- Critical CSS for LCP optimization -->
+        <style>
+          /* Critical above-the-fold styles */
+          *{text-rendering:optimizeLegibility;box-sizing:border-box}
+          body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+          .hero-section{contain:layout style paint}
+          img,video{max-width:100%;height:auto}
+          /* Defer below-fold content */
+          .defer{content-visibility:auto;contain-intrinsic-size:1px 2000px}
+        </style>
+        
+        <meta name="description" content="Professor Peptides is a research-focused resource for peptide education, tools, and product info. Clear, fast, and easy to use." />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="canonical" href="https://www.professorpeptides.org/" />
+        <link rel="icon" href="/favicon.ico" />
+        
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Professor Peptides" />
+        <meta property="og:description" content="Professor Peptides is a research-focused resource for peptide education, tools, and product info. Clear, fast, and easy to use." />
+        <meta property="og:image" content="https://www.professorpeptides.org/images/og-default.jpg" />
+        <meta property="og:url" content="https://www.professorpeptides.org" />
+        <meta property="og:type" content="website" />
+        
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        
+        <title>Professor Peptides</title>
+        
+        <!-- NPI Verification System -->
+        <script defer>
+          async function verifyDoctor(npi, containerId) {
+            const resultDiv = document.getElementById(containerId);
+            
+            // Sanitized verification with safe HTML output
+            try {
+              const safeNpi = npi.replace(/[^0-9]/g, ''); // Only allow numbers
+              if (safeNpi.length !== 10) {
+                throw new Error('Invalid NPI format');
+              }
+              
+              resultDiv.innerHTML = `
+                <div style="margin-top:10px; padding:10px; border:1px solid #ccc; border-radius:4px;">
+                  <p style="color:#555;">You can verify manually below:</p>
+                  <a href="https://npiregistry.cms.hhs.gov/provider-view/${encodeURIComponent(safeNpi)}" target="_blank" rel="noopener noreferrer">
+                    🔗 Verify manually on NPI Registry
+                  </a>
+                </div>
+              `;
+            } catch (error) {
+              resultDiv.innerHTML = '<p style="color:#dc2626;">Invalid verification request.</p>';
+            }
+          }
+        </script>
+        
+        <style>
+          .verify-btn {
+            margin-top: 10px;
+            padding: 8px 14px;
+            background: #0073e6;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+          }
+          .verify-btn:hover {
+            background: #005bb5;
+          }
+          .verification-result {
+            margin-top: 10px;
+            font-size: 14px;
+          }
+          .doctor-profile {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            background: #f9fafb;
+          }
+        </style>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root">
+          <div style="padding:16px;font-family:system-ui">
+            Loading… If this stays blank, open DevTools → Console → look for 404/JS errors.
+          </div>
+        </div>
+        <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    </body>
+</html>
