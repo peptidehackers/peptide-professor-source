@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "Professor Peptídeos",
+    "tagline": "A Plataforma de Pesquisa de Peptídeos Mais Abrangente do Mundo",
+    "description": "Plataforma educacional de pesquisa de peptídeos com supervisão médica especializada, banco de dados abrangente e calculadoras profissionais."
+  },
+  "navigation": {
+    "home": "Início",
+    "peptides": "Peptídeos",
+    "research": "Pesquisa",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "about": "Sobre",
+    "calculators": "Calculadoras",
+    "faq": "Perguntas Frequentes",
+    "contact": "Contato"
+  },
+  "common": {
+    "search": "Buscar",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "readMore": "Ler Mais",
+    "learnMore": "Saiba Mais",
+    "getStarted": "Começar",
+    "viewAll": "Ver Todos",
+    "backToHome": "Voltar ao Início",
+    "notFound": "Página não encontrada",
+    "comingSoon": "Em Breve"
+  },
+  "footer": {
+    "research": "Pesquisa",
+    "peptides": "Peptídeos",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "followUs": "Siga-nos para as últimas atualizações de pesquisa de peptídeos",
+    "educationalNotice": "Conteúdo educacional apenas para uso de pesquisa. Não é conselho médico. Não para uso humano.",
+    "copyright": "© 2025 Professor Peptídeos. Todos os direitos reservados."
+  },
+  "hero": {
+    "title": "A Plataforma de Pesquisa de Peptídeos Mais Abrangente do Mundo",
+    "subtitle": "Acesso a mais de 47 peptídeos de pesquisa com resumos de evidências, calculadoras profissionais e supervisão médica especializada",
+    "cta": "Explorar Banco de Dados"
+  }
+}
