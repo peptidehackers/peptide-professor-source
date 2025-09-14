@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "Profesor Péptidos",
+    "tagline": "Plataforma de Investigación de Péptidos Más Completa del Mundo",
+    "description": "Plataforma educativa de investigación de péptidos con supervisión médica experta, base de datos integral y calculadoras profesionales."
+  },
+  "navigation": {
+    "home": "Inicio",
+    "peptides": "Péptidos",
+    "research": "Investigación",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "about": "Acerca de",
+    "calculators": "Calculadoras",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Contacto"
+  },
+  "common": {
+    "search": "Buscar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "readMore": "Leer Más",
+    "learnMore": "Aprender Más",
+    "getStarted": "Comenzar",
+    "viewAll": "Ver Todo",
+    "backToHome": "Volver al Inicio",
+    "notFound": "Página no encontrada",
+    "comingSoon": "Próximamente"
+  },
+  "footer": {
+    "research": "Investigación",
+    "peptides": "Péptidos",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "followUs": "Síguenos para las últimas actualizaciones de investigación de péptidos",
+    "educationalNotice": "Contenido educativo solo para uso de investigación. No es consejo médico. No para uso humano.",
+    "copyright": "© 2025 Profesor Péptidos. Todos los derechos reservados."
+  },
+  "hero": {
+    "title": "Plataforma de Investigación de Péptidos Más Completa del Mundo",
+    "subtitle": "Accede a más de 47 péptidos de investigación con resúmenes de evidencia, calculadoras profesionales y supervisión médica experta",
+    "cta": "Explorar Base de Datos"
+  }
+}
